@@ -19,6 +19,7 @@ public class Main {
         quantity = 2;
         pricePerPiece = 1990;
         System.out.println("celková hmotnost zásilky: " + quantity*weight);
+        System.out.println("celková cena zásilky: " + (quantity*pricePerPiece+45));
 
 
     }
